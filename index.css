@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body,html
+{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;  
+    height: 100%;  
+    background-color: rgb(14, 14, 14);   
+}
+.container
+{
+    margin: 0 18vw;
+    width: calc(100%-36vw);
+    min-height: 100vh;
+    min-width: 50vw;
+    background-color: rgb(54, 56, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-container
+{
+    margin: 0 10rem;
+    width:70rem;
+    height: 26rem;
+    display: flex;
+    border: 1px solid rgb(49, 52, 71);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.h2-left
+{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 30px;
+}
+.p-left
+{
+    margin: 1rem 1.5rem;
+    font-size: 12px;
+    display: inline-block;
+}
+.left-container svg
+{
+    padding-right: 0.2rem;
+}
+.group
+{
+    display: flex;
+}
+.svg-list
+{
+    height: 10%;
+    margin-right: 1rem;
+    position: relative;
+    top: 0.25rem;
+}
+.right-container-mobile
+{
+    display: none;
+}
+.label
+{
+    /* margin-top: 1rem; */
+    margin-left: 2rem;
+}
+.email
+{
+    margin-top: 0.5rem;
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.subscribe
+{
+    margin-top: 1rem;
+    width: 81.5%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(35, 39, 66);
+    color: white;
+}
+.subscribe:hover
+{
+    background-color: red;
+    color: white;
+}
+.right-container-svg
+{
+    width: 17rem;
+    height: 24rem;
+    margin: 0.5rem 1rem;
+}
+
+
+.submit-container {
+    width: 22vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.submit-svg {
+    margin-top: 5vh;
+    margin-left: 1vw;
+    width: 4.5vw;
+    height: 6vh;
+}
+
+.h1 {
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.body {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 2.5vw;
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.submit-button {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    width: 75%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-radius: 10px;
+    background-color: #FF6643;
+    color: #FFEBE5;
+    border-style: none;
+    cursor: pointer;
+}
+.submit-button:hover
+{
+    background-color: rgba(255, 115, 0, 0.524);
+}
+
+@media (max-width:844px) {
+    * {
+            margin: 0;
+            padding: 0;
+        }
+        .news-container {
+            min-width: 100vw;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: space-evenly;
+         }
+        .right-container
+        {
+            min-width: 70vw;
+        }
+    .right-container-mobile
+    {
+        display: block;
+        width:100vw;
+        height: 41vh;
+    }
+    .right-container-svg
+    {
+        display: none;
+    }
+    
+    
+    .right-container-mobile{
+        padding: 0;
+        margin: 0;
+    }
+    .left-container
+    {
+
+        min-height: 70vh;
+    }
+    .h2-left
+    {
+        margin-top: 1rem;
+    }
+    .p-left
+    {
+        padding: 1.5rem;
+        font-size: 14px;
+    }
+
+    
+}
+@media (max-width:844px) {
+    .submit-container {
+            min-width: 100vw;
+            min-height: 100vh;
+        }
+    
+        .submit-svg {
+            width: 17vw;
+            height: 17vh;
+            margin-left: 10vw;
+            margin-top: 15vh;
+        }
+    
+        .h1 {
+            font-size: 45px;
+            margin-left: 10vw;
+            margin-top: 0vh;
+            color: #252846;
+        }
+    
+        .body {
+            margin: 4vh 10vw;
+            font-size: 15px;
+            color: #54525D;
+        }
+    
+        .submit-button {
+            margin-left: 10vw;
+            background-color: #232742;
+            margin-top: 18vh;
+            color: #FCFFFE;
+        }
+    
+        .submit-button:hover {
+            background-color: cadetblue;
+        }
+    
+}
+    

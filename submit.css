@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-color: rgb(14, 14, 14);
+}
+
+.container {
+    margin: 0 18vw;
+    width: calc(100%-36vw);
+    min-height: 100vh;
+    min-width: 50vw;
+    background-color: rgb(54, 56, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-container
+{
+    width: 22vw;
+    height: 45vh;
+    background-color: white;
+    border-radius: 20px;
+}
+.submit-svg
+{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    width:4.5vw;
+    height: 6vh;
+}
+.h1
+{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    color: #232643;
+}
+.body
+{
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 2.5vw;
+    font-size: 12px;
+    line-height: 17px;
+    color: #424251;
+}
+.submit-button
+{
+    margin-top:3vh;
+    margin-left: 2vw;
+    width: 75%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-radius: 10px;
+    background-color: #FF634D;
+    color: #FFEBE5;
+    border-style: none;
+}
+
+@media (max-width:844px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .submit-container
+    {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+    .submit-svg
+    {
+        width:17vw;
+        height:17vh;
+        margin-left: 10vw;
+        margin-top: 15vh;
+    }
+    .h1
+    {
+        font-size: 45px;
+        margin-left: 10vw;
+        margin-top: 0vh;
+        color: #252846;
+    }
+    .body
+    {
+        margin: 4vh 10vw;
+        font-size: 15px;
+        color: #54525D;
+    }
+    .submit-button
+    {
+        margin-left: 10vw;
+        background-color: #232742;
+        margin-top:18vh;
+        color: #FCFFFE;
+    }
+    .submit-button:hover
+    {
+        background-color: cadetblue;
+    }
+}
